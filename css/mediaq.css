@@ -1,0 +1,85 @@
+
+@media only screen and (orientation: landscape){
+	footer{
+		flex-direction: row;
+  	justify-content: space-around;
+  	height: 160px;
+	}
+	.about{
+		display: block;
+	}
+	.about > a{
+		display: block;
+	}
+	.descProjeto{
+	font-size: 1em;
+	line-height: 1.2;
+	}
+	.contform{
+		width: 70%;
+	}
+	.author{
+		width: 40%
+	}
+	.redes{
+		margin: 0;
+	}
+	.redes > a > img{
+		width: 5em;
+	}
+	footer > div > img {
+		width: 6em;
+	}
+	.exibe{
+		width: 80%;
+	}
+}
+@media only screen and (orientation: portrait){
+	footer > div > div > h1{
+		font-size: 5em;
+	}
+	.about{
+		display: none;
+	}
+	.menu{
+		justify-content: space-between;
+	}
+	.header{
+		background-size: 20%;
+		height: 16em;
+	}
+	.home{
+		font-weight: 700;
+		font-size: 5em;
+	}
+	.habilidades > li {
+		font-size:2em;
+	}
+	.descricao{
+		flex-direction: column;
+	}
+	.apresentacao{
+	margin: 20px;
+	width: 90%;
+	}
+	h1{
+		font-size: 5em;
+	}
+	.container{
+		width: 90%;
+	}
+	.portifolio{
+		grid-template-columns: 100%;
+		grid-template-rows: repeat(6,40em);
+		grid-gap: 2em 0;
+	}
+
+	.projeto{
+		display: grid;
+		justify-content: center;
+		overflow: hidden;
+	}
+	.projeto > img{
+		height:26em;
+	}
+}
